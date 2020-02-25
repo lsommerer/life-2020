@@ -1,0 +1,35 @@
+*****************************************************************************************************
+*****************************************************************************************************
+**                                                                                                 **
+**                          **       **   ******   ******                                          **
+**                          **       **   ******   ******                                          **
+**                          **       **   **       **                                              **
+**                          **       **   ****     ****                                            **
+**                          **       **   ****     ****                                            **
+**                          **       **   **       **                                              **
+**                          ******   **   **       ******                                          **
+**                          ******   **   **       ******  Version 0.6                             **
+**                                                                                                 **
+**    This program implements a cellular biology simulation. Each cell can have 8 neighboring      **
+**    cells. The state of a cell is determined by the number of neighbors that cell has:           **
+**                                                                                                 **
+**       0 to 1 neighbors dies of lack of symbiotic nutrients                                      **
+**       2 to 3 neighbors lives comfortably                                                        **
+**       4 to 8 neighbors dies of over crowding                                                    **
+**       exactly 3 neighbors a new cell is generated                                               **
+**                                                                                                 **
+**     You can use the following additional commands:                                                         **
+**                                                                                                 **
+**          Fill Rate  [F]: change the percent of live cells in a new generatin                    **
+**          Size       [I]: change the world size in rows and columns                              **
+**          More Help  [H]: this screen:                                                           **
+**          Back       [B]: go back to the main menu                                               **
+**                                                                                                 **
+**                                                                                                 **
+**                                                                                                 **
+**                                                                                                 **
+**                                                                                                 **
+**    Most commands also take parameters. For example F20 makes 20% of the cells alive.            **
+**                                                                                                 **
+*****************************************************************************************************
+*****************************************************************************************************
